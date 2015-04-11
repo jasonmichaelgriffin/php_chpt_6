@@ -1,5 +1,5 @@
 <?php
-echo "<table style=\"border: 1px solid black;\"> \n";
+
 $y=1 ;
 for (; $y<=20; $y++) {
 	echo "<tr> \n";
