@@ -1,6 +1,6 @@
 <?php
 echo "<table style=\"border: 1px solid black;\"> \n";
-$y=1 ;
+$y=5 ;
 for (; $y<=20; $y++) {
 	echo "<tr> \n";
 	for($x=1; $x <= 20; $x++) {
