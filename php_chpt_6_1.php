@@ -1,6 +1,6 @@
 <?php
 echo "<table style=\"border: 1px solid black;\"> \n";
-for ($y=1; $y<=12; $y++) {
+for ($y=1; $y<=20; $y++) {
 	echo "<tr> \n";
 	for($x=1; $x <= 12; $x++) {
 		echo "<td style=\"border: 1px solid #000; width:  25px;
