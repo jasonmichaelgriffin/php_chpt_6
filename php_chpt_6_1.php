@@ -5,7 +5,7 @@ for (; $counter <= 10; $counter++) {
 		break;
 	} else {
 		$temp = 4000 / $counter;
-		echo "4000 divided by " . $counter . " is..." . $temp . "<br />";
+		echo "4000 divided by " . $counter .  " is..." . $temp . "<br />";
 		}
 }
 ?>
