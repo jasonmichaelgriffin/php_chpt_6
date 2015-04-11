@@ -1,16 +1,16 @@
 <?php
-
+print "<table style=\"border: 1px solid black;\"> \n";
 $y=1 ;
 for (; $y<=20; $y++) {
-	echo "<tr> \n";
+	print "<tr> \n";
 	for($x=1; $x <= 20; $x++) {
-		echo "<td style=\"border: 1px solid #000; width:  25px;
+		print "<td style=\"border: 1px solid #000; width:  25px;
 			text-align:center;\">";
-		echo ($x * $y);
-		echo "</td> \n";
+		print ($x * $y);
+		print "</td> \n";
 	}
 }
-echo "</table>";
+print "</table>";
 ?>
 /**
 * Created by PhpStorm.
